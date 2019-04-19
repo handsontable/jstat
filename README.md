@@ -21,7 +21,7 @@ For most distributions, jStat provides the pdf, cdf, inverse, mean, mode, varian
 
 ## Installation
 Use npm to download the project.
-```bash
+```
 npm install @handsontable/jstat
 ```
 
@@ -29,7 +29,7 @@ npm install @handsontable/jstat
 
 jStat can be used in the browser. The `jStat` object will be added to the window. For example:
 
-```
+```html
 <script src="https://cdn.jsdelivr.net/npm/@handsontable/jstat/dist/jstat.min.js"></script> <!-- include jStat, from the CDN or otherwise -->
 <script>
 ...
@@ -43,7 +43,7 @@ data[i]['cum'] = jstat.normal(jstat.mean(), jstat.stdev()).cdf(data[i].x);
 
 Using jStat in Node environment.
 
-```
+```js
 const jStat = require('@handsontable/jstat');
 ...
 data[i]['cum'] = jStat.normal(jStat.mean(), jStat.stdev()).cdf(data[i].x);
