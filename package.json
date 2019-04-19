@@ -1,27 +1,26 @@
 {
-  "name" : "jStat",
-  "version" : "1.7.1",
-  "description" : "Statistical Library for JavaScript",
-  "homepage" : "http://github.com/jstat/jstat",
-  "main" : "./dist/jstat.js",
-  "author" : {
-    "name" : "Trevor Norris",
-    "email" : "trev.norris@gmail.com",
-    "url" : "http://trevorjnorris.com"
+  "name": "@handsontable/jstat",
+  "version": "1.0.0",
+  "description": "Statistical Library for JavaScript",
+  "homepage": "https://github.com/handsontable/jstat",
+  "main": "./dist/jstat.js",
+  "author": "Handsoncode <hello@handsoncode.net> (https://handsoncode.net)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/handsontable/jstat.git"
   },
-  "licenses" : [{
-    "type" : "MIT",
-    "url" : "http://www.opensource.org/licenses/mit-license.php"
-  }],
-  "repository" : {
-    "type" : "git",
-    "url" : "http://github.com/jstat/jstat.git"
+  "devDependencies": {
+    "generate-release": "^1.1.1",
+    "uglify-js": "^3.5.4",
+    "vows": "^0.8.2"
   },
-  "devDependencies" : {
-    "uglify-js" : "1.2.3",
-    "vows" : "https://github.com/flatiron/vows/archive/master.tar.gz"
-  },
-  "scripts" : {
-    "test" : "./node_modules/vows/bin/vows --spec --isolate"
+  "scripts": {
+    "all": "make all",
+    "clean": "make clean",
+    "build": "make core",
+    "doc": "make doc",
+    "test": "make test",
+    "release": "generate-release"
   }
 }

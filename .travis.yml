@@ -1,0 +1,14 @@
+language: node_js
+
+sudo: false
+
+node_js:
+  - '10'
+
+before_script:
+  - export TZ=Europe/Warsaw
+
+notifications:
+  email: false
+  slack:
+    secure: QN522hr/rtTETQak3pDRUmuBNcVZaQ9PYpchIqSQtvUVIczslVmfGj/XQrqDJLiWXKOxnxuSIMMyj8NgUkbTAlYuBL7Cgd3Mp432LCt16KE96Lt0oKQMbgZB/Irjy9/yxSkDXm4miP9J01sz9sfSHrK2z2h+1scAbFlnw/j4wcdr34H5TElhmx/Aw/ACohPr8d4zA2IkdLiw7HPXy3AZmPb7y95pEDe0AHRZu9RU53Ok2088nTI+rgneGGm1qpMFBcWn9iu5XM63hma9ao9ozPWyNhW0x/D42aYVO0nZnnJzy0EdHVI9lGtscWF8u4aKp4UqgYv9gTxROMaZB0QGajSACBwNE3XYFNPIcBDyB18W052qbNXaK66fjARgD/+9tSmYBOiIO8Vng4zzBof9rz1+x570QZZfLrv2sNZ/AxGZD7hto1ijujiRn2oIaOxX98lA5vD/gSLJLA12dJ4d/Ej9CYlFKleqJouiD61+tM+AF+McOCwtk+3/qL3NMSR1Zi5UF3DoIIycfuZTAr/YFdenYrd8k6szKmeAgpkmDJBovyKjLb+rckQUEc7IYtZswMMNhSaSWgZON5XkBunEWoZ+mYII/suztXRIquEeZruoY+7HoeMMxjbAFs04XZzs2ygqlOFNDhuFALh3CnctGrsy15sFUwt6oz2qeF+exxo=
