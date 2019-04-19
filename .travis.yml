@@ -7,6 +7,7 @@ node_js:
 
 before_script:
   - export TZ=Europe/Warsaw
+
 notifications:
   email: false
   slack:
