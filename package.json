@@ -1,6 +1,6 @@
 {
   "name": "@handsontable/jstat",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Statistical Library for JavaScript",
   "homepage": "https://github.com/handsontable/jstat",
   "main": "./dist/jstat.js",
