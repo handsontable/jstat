@@ -1,4 +1,4 @@
-**jStat** - JavaScript Statistical Library
+**@handsontable/jstat** - JavaScript Statistical Library
 ===============================================================
 
 **jStat** provides native javascript implementations of statistical functions.
@@ -19,7 +19,7 @@ For most distributions, jStat provides the pdf, cdf, inverse, mean, mode, varian
  4. [Running Tests](#Running-tests)
  5. [Get the Code](#get-the-code)
  6. [Contributing](#contributing)
-
+7. [Licensing](#licensing)
 <br/>
 
 ## Installation
@@ -86,5 +86,6 @@ it themselves.
 
 ## Contributing
 If you would like to help us to develop this library, please first read the [guide for contributors](//github.com/handsontable/jstat/blob/master/CONTRIBUTING.md).
-
+## Licensing
+This library is released under the MIT license.
 The project is based on the great work of [jStat](https://github.com/jstat/jstat).
