@@ -8,8 +8,6 @@ For most distributions, jStat provides the pdf, cdf, inverse, mean, mode, varian
 
 [![npm version](https://img.shields.io/npm/v/@handsontable/jstat.svg)](https://www.npmjs.com/package/@handsontable/jstat)
 
-<br/>
-
 ## Table of contents
 
 
@@ -19,16 +17,13 @@ For most distributions, jStat provides the pdf, cdf, inverse, mean, mode, varian
  4. [Running Tests](#Running-tests)
  5. [Get the Code](#get-the-code)
  6. [Contributing](#contributing)
-7. [Licensing](#licensing)
-<br/>
+ 7. [Licensing](#licensing)
 
 ## Installation
 Use npm to download the project.
 ```bash
 npm install @handsontable/jstat
 ```
-
-<br/>
 
 ## Getting Started
 
@@ -59,10 +54,9 @@ data[i]['cum'] = jStat.normal(jStat.mean(), jStat.stdev()).cdf(data[i].x);
 
 First, clone a copy of the jStat git repo by running `git clone https://github.com/handsontable/jstat.git`.
 
-To download all necessary libraries run `npm install`.
+To download all necessary dependencies run `npm install` in the cloned repository.
 
-Then, to get a complete, minified version of jStat and all documentation, simply `cd` to the `jstat` directory and
-type `npm run all`.
+Then, to get a complete, minified version of jStat and all documentation, simply type `npm run all`.
 
 The built version of jStat will be put in the `dist/` subdirectory.
 
@@ -70,22 +64,20 @@ Generate just the documentation by running `npm run doc`. Documentation will be 
 
 To remove all built files, run `npm run clean`.
 
-
 ## Running Tests
 
 Execute all tests by running `npm run test`.
 
 Or if you wish to run a specific test, `cd` to `test/<subdir>` and run `node <some_test>-test.js`.
 
-
 ## Get the Code
 
 Both the minified and unminified source are located in the `dist/` directory. For those who don't want to build
 it themselves.
 
-
 ## Contributing
 If you would like to help us to develop this library, please first read the [guide for contributors](//github.com/handsontable/jstat/blob/master/CONTRIBUTING.md).
+
 ## Licensing
 This library is released under the MIT license.
 The project is based on the great work of [jStat](https://github.com/jstat/jstat).
