@@ -1,0 +1,6 @@
+# Ignore all files and directories in this repository...
+*
+*/
+
+# ...and add files and directories that are the only ones that match the pattern below
+!dist/*.js

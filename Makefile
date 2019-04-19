@@ -1,7 +1,7 @@
 NODE_PATH ?= ./node_modules
 DIST_DIR = ./dist
-JS_COMPILER = $(NODE_PATH)/uglify-js/bin/uglifyjs
-JS_TESTER = $(NODE_PATH)/vows/bin/vows
+JS_COMPILER = $(NODE_PATH)/.bin/uglifyjs
+JS_TESTER = $(NODE_PATH)/.bin/vows
 
 DOC_DIR = doc
 BUILD_DIR = build
@@ -47,11 +47,10 @@ jstat: jstat.js
 
 install:
 	@echo 'Downloading necessary libraries for build'
-	@mkdir -p node_modules
 	@npm install
 
 test: clean core
 	@echo 'Running jStat unit tests'
-	@$(JS_TESTER)
+	@$(JS_TESTER) --spec --isolate
 
 .PHONY: clean core doc install test
